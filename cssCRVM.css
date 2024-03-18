@@ -1,0 +1,27 @@
+/* lista de temas */
+ul#privmsgs-menu {
+    border: var(--border);
+    background: var(--background-t);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    grid-template-columns: 100px auto;
+}
+
+ul#privmsgs-menu > .cjflex {
+    border: var(--border);
+    background: var(--gradient);
+    border-radius: calc(var(--border-radius) * .5);
+    padding: 20px;
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+ul#privmsgs-menu > div a {
+    font-style: italic;
+}
+
+ul#privmsgs-menu > .cjgrid {
+    border: var(--border);
+    border-radius: calc(var(--border-radius) * .5);
+    background: var(--background-1);
+}
