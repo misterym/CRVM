@@ -25,3 +25,61 @@ ul#privmsgs-menu > .cjgrid {
     border-radius: calc(var(--border-radius) * .5);
     background: var(--background-1);
 }
+/* quote, coe, etc */
+blockquote {
+    border: var(--border);
+    background: var(--gradient);
+    border-radius: var(--border-radius);
+    margin: 10px!important;
+}
+
+blockquote div {
+    margin: 10px;
+    color: #fafafa;
+    font-size: .76rem;
+    font-weight: 400;
+}
+
+blockquote cite {
+    text-transform: uppercase;
+    color: #fafafa;
+    font-weight: 500;
+    letter-spacing: .5px;
+    border-bottom: 1px solid var(--accent);
+    padding: 0 0 5px;
+    margin-bottom: 10px;
+}
+
+dl.codebox {
+    border: var(--border);
+    border-radius: var(--border-radius);
+    background: var(--background-2);
+    overflow: hidden;
+}
+
+.codebox dt {
+    background: var(--gradient);
+    padding: 10px 20px;
+    color: #fafafa;
+    display: flex!important;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.codebox dd {
+    font-size: .8rem;
+    color: var(--color-text);
+}
+
+.codebox code {
+    color: var(--color-text)!important;
+}
+
+.codebox dd > * {
+    padding: 10px;
+    font-size: .8rem!important;
+}
+dl.codebox.hidecode dd {
+    padding: 10px;
+}
