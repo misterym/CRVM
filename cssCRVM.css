@@ -92,3 +92,143 @@ dl.codebox.hidecode dd {
 .content-text div strong, .content-text div b, .content-text div i {
     color: var(--accent);
 }
+/* mp -respuesta */
+.cr-mp-ms {
+    grid-template-rows: 90px auto;
+    overflow: hidden;
+    margin: 10px auto;
+    border: var(--border);
+    background: var(--background-t);
+    padding: 10px;
+    border-radius: var(--border-radius);
+}
+
+.crmp-avatar {
+    width: 60px;
+    height: 60px;
+    border: 5px solid var(--background-1);
+    outline: 2px solid var(--accent);
+    border-radius: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 20px;
+}
+
+.crmp-avatar img {
+    width: 60px;
+}
+
+.crmp-header {
+    grid-template-columns: 80px auto;
+}
+
+.crmp-contact.cjflex {
+    gap: 5px;
+    height: 100%;
+    flex-direction: column;
+}
+
+.crmp-contact > * {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: var(--border);
+    background: var(--background-2);
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+.crmp-info-pj.cjflex {
+    line-height: 16px;
+    flex-direction: column;
+    position: relative;
+    padding-right: 120px;
+    align-items: flex-end;
+    border: var(--border);
+    background: var(--background-1);
+    border-radius: var(--border-radius);
+}
+.crmp-info-pj.cjflex b {
+    font-size: 1.2rem;
+}
+
+.crmp-info-pj.cjflex > span {
+    font-size: .76rem;
+}
+
+.crmp-content.cjgrid {
+    grid-template-columns: 80px auto;
+}
+
+.crmp-lin.cjflex {
+    flex-direction: column;
+}
+
+.crmp-lin.cjflex, .crmp-postbody > *,.crmp-lin.cjflex  >* {
+    border: var(--border);
+    background: var(--background-1);
+    border-radius: var(--border-radius);
+}
+
+.crmp-postbody.cjgrid {
+    grid-template-rows: 60px auto;
+}
+
+.crmp-p.content-post {
+    padding: 30px;
+}
+
+.crmp-pst-title.cjflex {
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.crmp-pst-title.cjflex b {
+    font-size: 1.2rem;
+    gap: 10px;
+}
+
+.crmp-pst-title.cjflex > span {
+    font-size: .7rem;
+}
+
+.crmp-pst-title.cjflex > span >span {
+    font-weight: 600;
+    color: var(--accent);
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+.crmp-lin.cjflex {
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.crmp-lin.cjflex > * {
+    width: 45px;
+    height: 45px;
+    background: var(--background-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .7rem;
+}
+
+.crmp-contact.cjflex i {
+    font-size: 1rem;
+    color: var(--color-icons);
+    transition: .3s ease-in;
+}
+
+.crmp-contact.cjflex > a:hover i {
+    font-size: 1.15rem;
+    color: var(--accent);
+}
+
+.crmp-pst-title.cjflex > .crtitle:before {
+    content: "\F470";
+    font-family: 'bootstrap-icons';
+    color: var(--color-icons);
+    font-size: 1.8rem;
+}
