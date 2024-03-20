@@ -232,3 +232,23 @@ dl.codebox.hidecode dd {
     color: var(--color-icons);
     font-size: 1.8rem;
 }
+.cr-panela {
+    margin: 20px 0;
+}
+.crpanel-headera {
+    border: var(--border);
+    background: var(--background-1);
+    padding: 15px 25px;
+    border-radius: var(--border-radius);
+    font-size: .8rem;
+    font-weight: 500;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.crpanel-headera.crsubtitle:before {
+    content: "\F8F2";
+    font-family: 'bootstrap-icons';
+    color: var(--color-icons);
+    font-size: 1.5rem;
+}
