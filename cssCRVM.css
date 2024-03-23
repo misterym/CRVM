@@ -6,7 +6,41 @@ ul#privmsgs-menu {
     padding: 10px;
     grid-template-columns: 100px auto;
 }
-
+.cr-content > div {
+    border: var(--border);
+    background: var(--background-1);
+    border-radius: var(--border-radius);
+    flex-grow:1;
+    height:80px;
+    grid-template-columns: 80px auto 45px;
+    padding: 10px;
+}
+.cr-content {
+    padding: 0;
+    gap:5px;
+    flex-wrap:wrap;
+}
+.cr-mp.cjgrid > *:not(.crmp-i), .crmp-i > a, .crmp-i > span > * {
+    border: var(--border);
+    background: var(--background-2);
+    border-radius: var(--border-radius);
+}
+.fchmsj{font-size:0;}
+.crmp-i.cjflex {flex-direction: column;}
+.crmp-i {grid-template-rows: auto 30px;}
+.crmp-i > a {font-size: 1rem;}
+.crmp-i > span {
+    grid-template-columns: 50px auto;
+    font-size: .7rem;
+    grid-template-rows: 32px;
+}
+span.crsubtitle > span:last-child {
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+span.crsubtitle.cjgrid > span:first-child div {display: none;}
+span.crsubtitle.cjgrid > span:first-child i {font-size: .9rem;}
+span.crsubtitle.cjgrid  > span i {color: var(--color-icons);}
 ul#privmsgs-menu > .cjflex {
     border: var(--border);
     background: var(--gradient);
