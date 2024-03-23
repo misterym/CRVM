@@ -6,6 +6,11 @@ ul#privmsgs-menu {
     padding: 10px;
     grid-template-columns: 100px auto;
 }
+ul#privmsgs-menu > .cjflex i {
+    color: var(--accent);
+    padding-right: 5px;
+    font-size: .85rem;
+}
 ul#privmsgs-menu .cjgrid > a:hover {
     color: var(--accent);
     font-size: 1.8rem;
