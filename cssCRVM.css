@@ -6,6 +6,26 @@ ul#privmsgs-menu {
     padding: 10px;
     grid-template-columns: 100px auto;
 }
+.msjmrk {
+    justify-content: space-between;
+    padding: 10px;
+    border: var(--border);
+    background: var(--background-t);
+    border-radius: var(--border-radius);
+}
+.msjmrk > span {gap: 5px;}
+.msjmrk a, .msjmrk input {
+    border: var(--border)!important;
+    background: var(--gradient);
+    padding: 8px 12px!important;
+    font-size: .8rem;
+    font-weight: 500;
+    font-family: var(--font-boton);
+    text-transform: uppercase;
+    color: #fafafa;
+    border-radius: calc(var(--border-radius) * .5);
+    letter-spacing: 0!important;
+}
 .cr-content > div {
     border: var(--border);
     background: var(--background-1);
