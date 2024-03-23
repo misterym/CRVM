@@ -80,6 +80,7 @@ ul#privmsgs-menu > .cjflex {
     padding: 20px;
     font-weight: 600;
     font-size: .8rem;
+    justify-content:flex-end;
 }
 
 ul#privmsgs-menu > div a {
