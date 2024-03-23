@@ -5,6 +5,7 @@ ul#privmsgs-menu {
     border-radius: var(--border-radius);
     padding: 10px;
     grid-template-columns: 100px auto;
+    font-size:.75rem;
 }
 ul#privmsgs-menu > .cjflex i {
     color: var(--accent);
@@ -65,7 +66,16 @@ ul#privmsgs-menu .cjgrid > a {
 .fchmsj{font-size:0;}
 .crmp-i.cjflex {flex-direction: column;}
 .crmp-i {grid-template-rows: auto 30px;}
-.crmp-i > a {font-size: 1rem;}
+.crmp-i > a > i {
+    font-size: 1.5rem;
+    color: var(--color-icons);
+}
+.crmp-i > a {
+    font-size: 1rem;
+    justify-content: flex-start;
+    padding-left: 20px;
+    gap: 10px;
+}
 .crmp-i > span {
     grid-template-columns: 50px auto;
     font-size: .7rem;
