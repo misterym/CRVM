@@ -6,6 +6,18 @@ ul#privmsgs-menu {
     padding: 10px;
     grid-template-columns: 100px auto;
 }
+ul#privmsgs-menu .cjgrid > a:hover {
+    color: var(--accent);
+    font-size: 1.8rem;
+}
+ul#privmsgs-menu .cjgrid > a {
+    color: var(--color-icons);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s ease-in;
+}
 .msjmrk {
     justify-content: space-between;
     padding: 10px;
@@ -32,7 +44,7 @@ ul#privmsgs-menu {
     border-radius: var(--border-radius);
     flex-grow:1;
     height:80px;
-    grid-template-columns: 80px auto 45px;
+    grid-template-columns: 100px auto 85px;
     padding: 10px;
 }
 .cr-content {
