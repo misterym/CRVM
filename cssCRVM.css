@@ -10,21 +10,21 @@ ul#privmsgs-menu {
     justify-content: space-between;
     padding: 10px;
     border: var(--border);
-    background: var(--background-t);
+    background: var(--background-1);
     border-radius: var(--border-radius);
 }
 .msjmrk > span {gap: 5px;}
 .msjmrk a, .msjmrk input {
-    border: var(--border)!important;
-    background: var(--gradient);
-    padding: 8px 12px!important;
-    font-size: .8rem;
-    font-weight: 500;
-    font-family: var(--font-boton);
-    text-transform: uppercase;
-    color: #fafafa;
-    border-radius: calc(var(--border-radius) * .5);
-    letter-spacing: 0!important;
+    border: var(--border) !important;
+    background: var(--gradient) !important;
+    padding: 5px 10px !important;
+    font-size: .75rem !important;
+    font-weight: 500 !important;
+    font-family: var(--font-boton) !important;
+    text-transform: uppercase !important;
+    color: #fafafa !important;
+    border-radius: calc(var(--border-radius)* .5);
+    letter-spacing: 0 !important;
 }
 .cr-content > div {
     border: var(--border);
