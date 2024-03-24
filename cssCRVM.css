@@ -334,3 +334,88 @@ dl.codebox.hidecode dd {
     color: var(--color-icons);
     font-size: 1.5rem;
 }
+/* registro */
+div#tabs {
+    padding: 0;
+    background: 0;
+    margin-bottom: 5px;
+}
+#tabs .activetab {background: var(--gradient);}
+#tabs li{border-radius:var(--border-radius);}
+h1.page-title {
+    font-family: var(--fuente-1);
+    font-weight: 500;
+    background: var(--background-2);
+    border-bottom: var(--border) !important;
+    text-transform: lowercase;
+    letter-spacing: 0;
+    font-size: 1.3rem;
+    color: var(--color-icons);
+    padding: 15px 20px !important;
+}
+#cp-main {
+    border: var(--border);
+    margin: 10px;
+    background: var(--background-1);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+.panel.row3 {
+    border: var(--border);
+    background: var(--background-t);
+    margin-top: 0px;
+    padding: 0;
+    border-radius: var(--border-radius);
+}
+#cp-main .panel:not(:last-child) {
+    border-bottom: var(--border);
+    margin-bottom: 0;
+}
+.panel > .inner > fieldset > dl {
+    border-radius: var(--border-radius);
+}
+div#tabs {
+    padding: 0;
+    background: 0;
+    margin-bottom: 5px;
+}
+
+.panel > .inner > fieldset > dl {
+    border-radius: var(--border-radius);
+    padding: 0;
+    overflow: hidden;
+    min-width: 49%;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+fieldset > * > dt{
+    flex-grow:1;
+    padding: 10px;
+    width: 100%!important;
+    border-bottom: var(--border);
+    text-transform: uppercase;
+    font-weight: 800!important;
+    background: var(--gradient);
+    height: 40px;
+    box-sizing: border-box;
+}
+fieldset > * {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0!important;
+}
+
+fieldset > * > dt > * {
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+fieldset dd {
+    margin: 0;
+    padding: 15px;
+}
