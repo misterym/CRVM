@@ -401,6 +401,7 @@ fieldset > * > dt{
     font-weight: 800!important;
     background: var(--gradient);
     height: 40px;
+    max-height: 40px;
     box-sizing: border-box;
 }
 fieldset > * {
@@ -418,4 +419,9 @@ fieldset > * > dt > * {
 fieldset dd {
     margin: 0;
     padding: 15px;
+}
+#cp-main input:not([type="radio"],.button1, .button2) {
+    width: 100% !important;
+    box-sizing: border-box;
+    margin: 0;
 }
