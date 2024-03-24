@@ -508,3 +508,33 @@ table#memberlist td {
     justify-content: center;
     line-height: 100%;
 }
+#cp-main table.table1 {
+    margin-bottom: 0 !important;
+}
+div#cp-main .right-box a:hover {
+    color: var(--accent);
+    font-size: .78rem;
+    font-weight: 700;
+}
+
+div#cp-main .right-box a {
+    transition: .3s ease-in;
+    border: var(--border);
+    text-transform: uppercase;
+    font-size: .76rem;
+    font-weight: 600;
+    color: var(--color);
+    padding: 15px 30px;
+    background: var(--background-2);
+    border-radius: var(--border-radius);
+    flex-grow: 1;
+    text-align: center;
+}
+div#cp-main .right-box {
+    gap: 5px;
+    float: none;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
