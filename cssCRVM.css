@@ -498,3 +498,13 @@ table tbody > * td {
     font-size: .7rem!important;
     color: var(--accent);
 }
+table#memberlist thead > *, table#memberlist tbody > * {grid-template-columns: 50px auto 120px 80px 170px 50px 200px 40px;}
+table#memberlist td {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 100%;
+}
