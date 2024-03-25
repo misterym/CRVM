@@ -337,6 +337,7 @@ dl.codebox.hidecode dd {
 /* registro */
 div#tabs {
     padding: 0;
+    border:0;
     background: 0;
     margin-bottom: 5px;
 }
