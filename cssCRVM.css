@@ -541,3 +541,80 @@ div#cp-main .right-box {
 table#memberlist td.posts {
     align-items: center !important;
 }
+/* notiss */
+div#fa_menu {display: none;}
+div#notification-fa {
+    position: fixed;
+    top: 73px;
+    width: 360px;
+    right: 10px;
+}
+.cr-notification > * > *, .welcom > * {
+    border: var(--border);
+    border-radius: var(--border-radius);
+    background: var(--background-t);
+}
+.cr-notification > * {
+    display: grid!important;
+    gap: 5px;
+}
+.welcom {
+    display: grid;
+    grid-template-columns: 80px auto;
+    gap: 5px;
+    padding: 8px;
+}
+div#live_notif,#fa_hide {display: none!important;}
+.welcom >* {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .7rem;
+    text-transform: uppercase;
+    padding: 5px;
+    font-weight: 600;
+}
+.welcom > i {background: var(--gradient);}
+.welcom > div {background: var(--background-1);}
+ul#notif_list {
+    padding: 8px;
+    display: grid;
+    gap: 5px;
+}
+#notif_list > li {
+    border: var(--border);
+    border-radius: calc(var(--border-radius) *.5);
+    padding: 5px;
+    background: var(--background-1);
+    font-size: .77rem;
+    font-weight: 600;
+    display: block!important;
+    padding-right: 30px;
+    position: relative;
+}
+#notif_list > li hr, #notif_list > li br {display: none;}
+#notif_list a.delete {
+    width: 25px;
+    height: 25px;
+    background: var(--gradient);
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 0 0 var(--border-radius);
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+#notif_list a.delete:after {
+    content: "x";
+    color: #fafafa;
+    font-size: .8rem;
+    font-family: var(--font-boton);
+}
+li.see_all {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .68rem!important;
+    letter-spacing: .5px;
+    padding: 5px!important;
+}
