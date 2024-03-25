@@ -548,11 +548,13 @@ div#notification-fa {
     top: 73px;
     width: 360px;
     right: 10px;
+    z-index:6;
 }
 .cr-notification > * > *, .welcom > * {
     border: var(--border);
     border-radius: var(--border-radius);
     background: var(--background-t);
+    backdrop-filter: blur(1px) grayscale(1);
 }
 .cr-notification > * {
     display: grid!important;
@@ -574,7 +576,11 @@ div#live_notif,#fa_hide {display: none!important;}
     padding: 5px;
     font-weight: 600;
 }
-.welcom > i {background: var(--gradient);}
+.welcom > i {
+    background: var(--gradient);
+    color: #fafafa;
+    font-size: .9rem;
+}
 .welcom > div {background: var(--background-1);}
 ul#notif_list {
     padding: 8px;
@@ -582,6 +588,7 @@ ul#notif_list {
     gap: 5px;
 }
 #notif_list > li {
+    overflow:hidden;
     border: var(--border);
     border-radius: calc(var(--border-radius) *.5);
     padding: 5px;
