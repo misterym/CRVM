@@ -557,8 +557,16 @@ div#notification-fa {
     backdrop-filter: blur(1px) grayscale(1);
 }
 .cr-notification > * {
-    display: grid!important;
+    display: grid !important;
     gap: 5px;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease-in;
+    opacity: 0;
+}
+.cr-notification .notification {
+    height: fit-content;
+    opacity: 1;
 }
 .welcom {
     display: grid;
