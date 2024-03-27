@@ -695,3 +695,66 @@ div#postingbox .h3 {
     font-size: .7rem;
     text-align: right;
 }
+div#postingbox .fields1 {
+    display: grid;
+    grid-template-columns: auto 200px;
+    gap: 10px;
+}
+
+div#smiley-box {
+    float: unset!important;
+    width: auto;
+}
+
+div#postingbox .fields1 dl {
+    border: var(--border);
+    background: var(--background-1);
+    border-radius: var(--border-radius);
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 6px;
+}
+
+div#postingbox .fields1 dl dt label {
+    font-size: .7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+div#postingbox .fields1 dl dd {
+    margin: 0;
+    padding: 0;
+    margin-inline-start: 0!important;
+    width: 100%;
+}
+
+div#postingbox .fields1 dl dd input {
+    background: var(--background-2);
+    width: 100% !important;
+}
+div#postingbox .fields1 dl dt {
+    width: 103%;
+    border-bottom: var(--border);
+    background: var(--gradient);
+    margin: -10px -10px 10px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+}
+
+div#message-box > br {
+    display: none;
+}
+
+#postingbox div#textarea_content {
+    width: 100%!important;
+}
+
+#postingbox .sceditor-toolbar {padding: 15px 25px!important;}
+
+#postingbox .fields1 {
+    padding-bottom: 10px;
+}
