@@ -783,3 +783,47 @@ div#smiley-box > .cjgrid > * {
     line-height: 100%;
     font-weight: 600;
 }
+/* revisar tema */
+.cr-revisartema {
+    padding: 10px;
+    margin-top: 50px;
+    padding-bottom: 5px;
+}
+.cr-revisartema > .h3 {
+    margin: -10px -10px 10px;
+    border: 0;
+    border-bottom: var(--border);
+    background: var(--gradient);
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.cr-rt {
+    margin-bottom: 5px;
+    border: var(--border);
+    background: var(--background-1);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.cr-rt-title {
+    border-bottom: var(--border);
+    background: var(--gradient);
+    padding: 8px;
+    color: #ccc;
+}
+
+.cr-rt-info {
+    border-bottom: var(--border);
+    background: var(--background-2);
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+.cr-rt-postbody {
+    padding: 30px;
+}
