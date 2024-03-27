@@ -1,3 +1,9 @@
+#page-footer .navbar {
+    border: var(--border);
+    background: var(--background-1);
+    border-radius: var(--border-radius);
+    width: 1105px;
+}
 /* lista de temas */
 ul#privmsgs-menu {
     border: var(--border);
