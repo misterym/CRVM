@@ -634,3 +634,53 @@ li.see_all {
     letter-spacing: .5px;
     padding: 5px!important;
 }
+/* ult temas*/
+.cr-ult-tm.cjflex {
+    flex-direction: column;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    background: var(--background-1);
+    padding: 15px;
+    align-items: flex-start;
+    padding-left: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.crtbpr-news {
+    border: 8px solid var(--background-2);
+    box-sizing: border-box;
+    outline: var(--border);
+    margin: 1px;
+    height: 228px;
+    overflow: auto;
+    border-right-width: 0;
+    padding-right: 8px;
+}
+
+.cr-ult-tm {
+    font-size: .7rem;
+    line-height: 100%;
+}
+
+.cr-ult-tm > a:first-child {
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+.cr-ult-tm.cjflex:after {
+    content: "\EC83";
+    font-family: 'game-icons';
+    position: absolute;
+    z-index: -1;
+    font-size: 4rem;
+    color: var(--color-icons);
+    margin-left: -30px;
+    opacity: .3;
+    transition: .4s ease-in;
+}
+
+.cr-ult-tm.cjflex:hover:after {
+    color: var(--accent);
+    opacity: .2;
+}
