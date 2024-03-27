@@ -832,3 +832,6 @@ div#smiley-box > .cjgrid > * {
 .cr-rt-postbody {
     padding: 30px;
 }
+div#postingbox .fields1 .button2 {
+    background: var(--gradient);
+}
