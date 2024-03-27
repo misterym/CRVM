@@ -742,7 +742,7 @@ div#postingbox .fields1 dl dd input {
     background: var(--background-2);
 }
 div#postingbox .fields1 dl dt {
-    width: 103%;
+    width: 107%;
     border-bottom: var(--border);
     background: var(--gradient);
     margin: -10px -10px 10px;
