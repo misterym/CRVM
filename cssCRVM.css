@@ -717,7 +717,7 @@ div#postingbox .fields1 dl {
     background: var(--background-1);
     border-radius: var(--border-radius);
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     overflow: hidden;
     display: flex;
     flex-direction: column;
