@@ -740,7 +740,6 @@ div#postingbox .fields1 dl dd {
 
 div#postingbox .fields1 dl dd input {
     background: var(--background-2);
-    width: 100% !important;
 }
 div#postingbox .fields1 dl dt {
     width: 103%;
