@@ -835,3 +835,17 @@ div#smiley-box > .cjgrid > * {
 div#postingbox .fields1 .button2 {
     background: var(--gradient);
 }
+.content-text ul { margin-left: 20px;}
+.content-text ul > li:before {
+    content: "";
+    width: 5px;
+    margin-right: 10px;
+    height: 5px;
+    background: var(--accent);
+    display: block;
+    border-radius: 100%;
+}
+.content-text ul > li {
+    display: flex;
+    align-items: center;
+}
