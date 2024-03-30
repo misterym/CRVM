@@ -95,6 +95,7 @@ span.crsubtitle.cjgrid > span:first-child div {display: none;}
 span.crsubtitle.cjgrid > span:first-child i {font-size: .9rem;}
 span.crsubtitle.cjgrid  > span i {color: var(--color-icons);}
 ul#privmsgs-menu > .cjflex {
+    color:#ccc;
     border: var(--border);
     background: var(--gradient);
     border-radius: calc(var(--border-radius) * .5);
@@ -692,6 +693,7 @@ li.see_all {
 }
 /* enviar post template */
 div#postingbox .h3 {
+    color:#ccc;
     border-bottom: var(--border);
     margin: 0 -10px;
     padding: 10px 15px;
@@ -729,6 +731,7 @@ div#postingbox .fields1 dl dt label {
     font-size: .7rem;
     text-transform: uppercase;
     font-weight: 600;
+    color:#ccc;
 }
 
 div#postingbox .fields1 dl dd {
@@ -748,6 +751,7 @@ div#postingbox .fields1 dl dt {
     margin: -10px -10px 10px;
     padding: 8px 10px;
     box-sizing: border-box;
+    color:#ccc!important;
 }
 
 div#message-box > br {
@@ -801,6 +805,7 @@ div#smiley-box > .cjgrid > * {
     background: var(--gradient);
     border-radius: 0;
     font-weight: 600;
+    color:#ccc;
 }
 
 .cr-rt {
@@ -848,4 +853,7 @@ div#postingbox .fields1 .button2 {
 .content-text ul > li {
     display: flex;
     align-items: center;
+}
+.day h1.page-title {
+    color: var(--accent);
 }
