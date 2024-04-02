@@ -4,6 +4,21 @@
     border-radius: var(--border-radius);
     width: 1105px;
 }
+span#notif_unread:empty {display: none;}
+span#notif_unread {
+    position: absolute;
+    background: var(--accent);
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+    color: #ccc;
+    font-size: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -10px;
+    bottom: 0;
+}
 /* lista de temas */
 ul#privmsgs-menu {
     border: var(--border);
