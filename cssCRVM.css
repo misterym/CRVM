@@ -862,12 +862,10 @@ div#postingbox .fields1 .button2 {
     margin-right: 10px;
     height: 5px;
     background: var(--accent);
-    display: block;
+    display: inline-flex;
     border-radius: 100%;
-}
-.content-text ul > li {
-    display: flex;
-    align-items: center;
+    position: relative;
+    top: -2px;
 }
 .day h1.page-title {
     color: var(--accent);
