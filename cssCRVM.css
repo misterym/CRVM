@@ -872,3 +872,25 @@ div#postingbox .fields1 .button2 {
 .day h1.page-title {
     color: var(--accent);
 }
+.crtmst-img a > i {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gradient);
+    border-radius: 100%;
+    font-size: .6rem;
+    color: #ccc;
+    padding: 2px 5px 2px 7px;
+}
+#i_icon_mini_new_message {
+    z-index: 6;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: var(--accent);
+    border-radius: 100%;
+    right: -4px;
+    bottom: 2px;
+}
