@@ -847,7 +847,7 @@ div#postingbox .fields1 .button2 {
 .content-text .content {font-size: .8rem;}
 a {text-decoration: none;}
 .sinbr > br {display: none;}
-a,a:visited {color: var(--accent);}
+a {color: var(--accent);}
 ::-webkit-scrollbar {
     width: 12px !important;
     height: 5px !important;
