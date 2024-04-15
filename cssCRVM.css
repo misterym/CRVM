@@ -187,13 +187,13 @@ dl.codebox {
 dl.codebox.hidecode dd {
     padding: 10px;
 }
-.content-text div u {
+.content-text u {
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: none;
     border-bottom: 2px solid var(--accent);
 }
-.content-text div strong, .content-text div b, .content-text div i {
+.content-text strong, .content-text b, .content-text i {
     color: var(--accent);
 }
 /* mp -respuesta */
