@@ -892,3 +892,98 @@ div#postingbox .fields1 .button2 {
     right: -4px;
     bottom: 2px;
 }
+.crtem-t-t > span {position: relative;}
+.crtem-t-t .pagination {
+    position: absolute;
+    left: 10px;
+}
+.pagination {
+    margin-top: 0;
+    float: none;
+}
+.n-msg {
+    color: var(--accent);
+}
+.crtmpj-pj span em {
+    display: none;
+}
+.content-text .content {font-size: .8rem;}
+a {text-decoration: none;}
+.sinbr br {display: none;}
+a,a:visited {color: var(--accent);}
+::-webkit-scrollbar {
+    width: 12px !important;
+    height: 5px !important;
+    background: var(--background-1)!important;
+    border-left: var(--border);
+}
+.inputbox {
+    border: var(--border);
+    background: var(--background-1);
+    padding: 5px !important;
+    font-family: poppins;
+    color: var(--color);
+    font-size: .8rem;
+}
+.crnav-links a:visited {color: var(--color-icons);}
+.cr-categoria.tuprimeracategoría > .crcat-header > i:before {
+    content: "\E032";
+    font-family: 'game-icons' !important;
+    vertical-align: unset;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(40deg, var(--background-1), var(--accent))!important;
+    border: 2px solid var(--background-1)!important;
+}
+#i_icon_mini_new_message {
+    z-index: 6;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: var(--accent);
+    border-radius: 100%;
+    right: -4px;
+    bottom: 2px;
+}
+.crtpj-im .equipables, .crtpj-im .stats {
+    display: none;
+}
+.content-post{text-align:justify;}
+/**/
+      div#info_open {
+    border: var(--border);
+    border-radius: var(--border-radius);
+    background: var(--background-t);
+    padding: 10px;
+}
+div#info_open {
+    display: grid!important;
+    gap: 5px;
+}
+div#info_open > * {
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    background: var(--background-2);
+}
+div#info_open > .h3 {
+    font-size: 1rem;
+    padding-left: 20px;
+}
+div#info_open > p {
+    font-size: .7rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+div#info_open strong {
+    color: var(--accent);
+}
+div#sort-box {
+    border: var(--border);
+    background: var(--background-1);
+    width: 100%;
+    border-radius: var(--border-radius);
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
