@@ -928,3 +928,37 @@ div#sort-box {
     opacity: .9;
 }
 .crcatfe-a >a>i{padding:2px 5px 2px 2px;}
+ .ucp-main table thead > *, .ucp-main table tbody > * {
+    display: grid;
+    grid-template-columns: auto 180px 150px;
+    gap: 5px;
+    grid-template-rows: 50px;
+}
+.ucp-main table th {
+    width: auto!important;
+    border: var(--border)!important;
+    background: var(--background-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .6rem!important;
+}
+
+.ucp-main table tbody {
+    display: grid;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+.ucp-main table tbody > * td {
+    border: var(--border)!important;
+    background: var(--background-2);
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    padding: 0 20px!important;
+    text-transform: uppercase;
+    font-weight: 650!important;
+    font-size: .7rem!important;
+    color: var(--accent);
+}
