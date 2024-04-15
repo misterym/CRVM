@@ -987,3 +987,7 @@ div#sort-box {
     padding: 10px;
     box-sizing: border-box;
 }
+.curr_privmsg {
+    opacity: .9;
+}
+/* tablon pincipal*/
