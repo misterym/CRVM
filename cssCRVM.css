@@ -971,3 +971,8 @@ div#sort-box {
 .ucp-main table tbody > * td:nth-child(2) > a:not(.topictitle) {
     font-size: 0;
 }
+#cp-main h1 {
+    margin: 0px 0px 0 !important;
+    padding: 20px !important;
+    border-bottom: 0 !important;
+}
