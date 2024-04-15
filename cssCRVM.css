@@ -138,6 +138,8 @@ blockquote {
     background: var(--gradient);
     border-radius: var(--border-radius);
     margin: 10px!important;
+    max-width: 650px;
+    margin: 0 auto;
 }
 
 blockquote div {
@@ -162,8 +164,9 @@ dl.codebox {
     border-radius: var(--border-radius);
     background: var(--background-2);
     overflow: hidden;
+    max-width: 650px;
+    margin: 0 auto;
 }
-
 .codebox dt {
     background: var(--gradient);
     padding: 10px 20px;
