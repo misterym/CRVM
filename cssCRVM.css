@@ -870,7 +870,7 @@ div#postingbox .fields1 .button2 {
 .day h1.page-title {
     color: var(--accent);
 }
-.crtmst-img a > i {
+.crtmst-img a > i,.crcatfe-a >a>i {
     width: 15px;
     height: 15px;
     display: flex;
