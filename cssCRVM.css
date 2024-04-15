@@ -688,8 +688,8 @@ li.see_all {
 .cr-ult-tm > a:first-child {
     font-size: 1rem;
     margin-bottom: 4px;
+    line-height: 95%;
 }
-
 .cr-ult-tm.cjflex:after {
     content: "\EC83";
     font-family: 'game-icons';
