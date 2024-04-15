@@ -982,3 +982,6 @@ div#sort-box {
     padding: 20px !important;
     border-bottom: 0 !important;
 }
+.cr-panel {
+    max-width: 1100px;
+}
