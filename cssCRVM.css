@@ -962,3 +962,12 @@ div#sort-box {
     font-size: .7rem!important;
     color: var(--accent);
 }
+.ucp-main table tbody > * td.posts i {
+    font-size: 2.5rem;
+}
+.ucp-main table tbody > * td.posts i.bi {
+    font-size: 1.4rem;
+}
+.ucp-main table tbody > * td:nth-child(2) > a:not(.topictitle) {
+    font-size: 0;
+}
