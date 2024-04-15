@@ -867,6 +867,9 @@ div#postingbox .fields1 .button2 {
     position: relative;
     top: -2px;
 }
+.content-text li {
+    list-style-type: none;
+}
 .day h1.page-title {
     color: var(--accent);
 }
