@@ -3,6 +3,9 @@
     background: var(--background-1);
     border-radius: var(--border-radius);
     width: 1105px;
+}a#fa_notifications:before {
+    content: "\f189";
+    font-family: bootstrap-icons !important;
 }
 span#notif_unread:empty {display: none;}
 span#notif_unread {
