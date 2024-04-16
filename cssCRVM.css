@@ -988,4 +988,4 @@ div#sort-box {
 from[name="tag_list"] div#cp-main .right-box a {width: 200px;}
 form[name="addtag_form"] input{padding:8px;}
 form[name="addtag_form"] #addtag{background:var(--background-2);}
-form[name="addtag_form"] input[name="addtag_button"]{background:var(--gradient); text-transform:uppercase; font-size:.7rem;}
+form[name="addtag_form"] input[name="addtag_button"]{background:var(--gradient); text-transform:uppercase; font-size:.7rem; color:#ccc;}
