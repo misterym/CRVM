@@ -990,3 +990,17 @@ form[name="addtag_form"] input{padding:8px;}
 form[name="addtag_form"] #addtag{background:var(--background-2);}
 form[name="addtag_form"] input[name="addtag_button"]{background:var(--gradient); text-transform:uppercase; font-size:.7rem; color:#ccc;}
 .ucp-main form[name="tag_list"] table thead > *, .ucp-main form[name="tag_list"] table tbody > * {grid-auto-columns: auto 200px !important;}
+
+.sceditor-dropdown {
+    background: var(--gradient) !important;
+    border-radius: var(--border-radius) !important;
+    border: var(--border) !important;
+}
+p.sceditor-mention-user {font-size: 12px;background: var(--background-1);border: var(--border);color: var(--color-text);}
+
+input#sceditor-input-mention {
+    color: var(--color-text);
+}
+.sceditor-mention-user:hover {
+    background: var(--background-t);
+}
