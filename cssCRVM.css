@@ -985,3 +985,7 @@ div#sort-box {
 .cr-panel {
     max-width: 1100px;
 }
+from[name="tag_list"] div#cp-main .right-box a {width: 200px;}
+form[name="addtag_form"] input{padding:8px;}
+form[name="addtag_form"] #addtag{background:var(--background-2);}
+form[name="addtag_form"] input[name="addtag_button"]{background:var(--gradient); text-transform:uppercase; font-size:.7rem;}
