@@ -1006,6 +1006,7 @@ input#sceditor-input-mention {
 }
 .sceditor-header-option {
     background: transparent !important;
+    color: var(--color-text) !important;
 }
 div.sceditor-dropdown .button {
     background: var(--accent) !important;
