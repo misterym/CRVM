@@ -992,7 +992,7 @@ form[name="addtag_form"] input[name="addtag_button"]{background:var(--gradient);
 .ucp-main form[name="tag_list"] table thead > *, .ucp-main form[name="tag_list"] table tbody > * {grid-auto-columns: auto 200px !important;}
 
 .sceditor-dropdown {
-    background: var(--gradient) !important;
+    background: var(background-1) !important;
     border-radius: var(--border-radius) !important;
     border: var(--border) !important;
 }
@@ -1003,4 +1003,22 @@ input#sceditor-input-mention {
 }
 .sceditor-mention-user:hover {
     background: var(--background-t);
+}
+.sceditor-header-option {
+    background: transparent !important;
+}
+div.sceditor-dropdown .button {
+    background: var(--gradient) !important;
+    border: var(--border) !important;
+    border-radius: var(--border-radius) !important;
+    color: #ccc;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.crtem-tems form#quick_reply textarea {
+    width: 99% !important;
+    box-sizing: border-box;
+}
+.crtem-tems > .cr-panel {
+    overflow: visible;
 }
