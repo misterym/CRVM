@@ -1025,3 +1025,4 @@ div.sceditor-dropdown .button {
 .sceditor-dropdown a:hover {
     background: transparent;
 }
+.sceditor-container.ltr.sourceMode{box-sizing: border-box;}
