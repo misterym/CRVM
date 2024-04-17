@@ -992,7 +992,7 @@ form[name="addtag_form"] input[name="addtag_button"]{background:var(--gradient);
 .ucp-main form[name="tag_list"] table thead > *, .ucp-main form[name="tag_list"] table tbody > * {grid-auto-columns: auto 200px !important;}
 
 .sceditor-dropdown {
-    background: var(background-1) !important;
+    background: var(--background-1) !important;
     border-radius: var(--border-radius) !important;
     border: var(--border) !important;
 }
@@ -1008,7 +1008,7 @@ input#sceditor-input-mention {
     background: transparent !important;
 }
 div.sceditor-dropdown .button {
-    background: var(--gradient) !important;
+    background: var(--accent) !important;
     border: var(--border) !important;
     border-radius: var(--border-radius) !important;
     color: #ccc;
