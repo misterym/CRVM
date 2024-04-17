@@ -807,7 +807,7 @@ div#postingbox .fields1 .button2 {
     position: relative;
     top: -2px;
 }
-.content-text li {
+.content-text ul li {
     list-style-type: none;
 }
 .day h1.page-title {
@@ -1029,4 +1029,8 @@ div.sceditor-dropdown .button {
 .sceditor-container.ltr.sourceMode{box-sizing: border-box;}
 blockquote strong {
     color: #ccc !important;
+}
+::marker {
+    color: var(--accent);
+    font-weight: 700;
 }
