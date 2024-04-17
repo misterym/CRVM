@@ -1034,3 +1034,6 @@ blockquote strong {
     color: var(--accent);
     font-weight: 700;
 }
+.content-text ol {
+    margin-left: 32px;
+}
