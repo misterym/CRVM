@@ -1012,7 +1012,7 @@ div.sceditor-dropdown .button {
     background: var(--accent) !important;
     border: var(--border) !important;
     border-radius: var(--border-radius) !important;
-    color: #ccc;
+    color: #ccc !important;
     text-transform: uppercase;
     font-size: 11px;
 }
@@ -1027,3 +1027,6 @@ div.sceditor-dropdown .button {
     background: transparent;
 }
 .sceditor-container.ltr.sourceMode{box-sizing: border-box;}
+blockquote strong {
+    color: #ccc !important;
+}
