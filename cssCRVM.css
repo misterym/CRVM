@@ -1022,3 +1022,6 @@ div.sceditor-dropdown .button {
 .crtem-tems > .cr-panel {
     overflow: visible;
 }
+.sceditor-dropdown a:hover {
+    background: transparent;
+}
