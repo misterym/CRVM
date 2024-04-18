@@ -1037,3 +1037,204 @@ blockquote strong {
 .content-text ol {
     margin-left: 32px;
 }
+
+
+ /* afiliacions*/
+.cr-afiliaciones {
+    border: var(--border);
+    margin: 60px 0 5px;
+    background: var(--background-t);
+    padding: 10px;
+    border-radius: var(--border-radius);
+}
+.cr-af-crd {
+    height: 65px;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: var(--gradient)!important;
+    position: relative;
+    z-index: 1;
+}
+.cr-af-crd, .cr-af-content > *:not(.cr-creditos) > *, .cr-creditos {border: var(--border);border-radius: var(--border-radius);overflow: hidden;background: var(--background-1);}
+.cr-af-content.cjgrid {
+    grid-template-areas:
+        "hermano credito elite";
+    grid-template-columns: 205px auto 491px;
+    padding: 10px;
+    border: var(--border);
+    background: var(--background-1);
+    border-radius: var(--border-radius);
+}
+.cr-hermanos {
+    grid-area: hermano;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(4, 50px);
+    align-items: center;
+}
+.cr-elite {
+    grid-area: elite;
+    grid-template-columns: repeat(9, 50px);
+}
+.cr-creditos {
+    grid-area: credito;
+    background: var(--background-2);
+}
+.cr-hermanos > *, .cr-hermanos > * img {
+    width: 100px;
+    height: 50px;
+}
+.cr-elite > *, .cr-elite > * img {
+    height: 50px;
+    width: 50px;
+}
+.cr-afiliaciones img {mix-blend-mode: luminosity;opacity: .2;transition: .6s ease-in;}
+.cr-afiliaciones a:hover > img {
+    opacity: 1;
+    mix-blend-mode: normal;
+}
+.cr-af-crd.cjflex > span {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .6px;
+    font-size: .7rem;
+    border: var(--border);
+    padding: 5px 20px;
+    background: var(--background-1);
+    border-radius: var(--border-radius);
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-text);
+}
+.cr-af-crd > span > a {
+    font-family: 'palmtick';
+    text-transform: lowercase;
+    font-size: 1.1rem;
+}
+      
+.crtem-t-l.cjflex {
+    justify-content: space-between;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+.crtem-t-l i:not(.bi-link-45deg) {
+    font-size: .6rem;
+    color: var(--color-icons);
+    padding: 0 6px;
+}
+.crtem-t-l .bi-link-45deg {
+    font-size: 1.3rem;
+    color: var(--color-icons);
+}
+.cjflex.mensajes > span:after {content: "mensajes enviados";}
+.cjflex.icon, .sceditor-grip {display: none;}
+.cjflex.dolares > span:after {content: "dolares";}
+.cjflex.fechadenacimiento > span:after {content: "años de edad";}
+.crdesconectado.cjflex {
+    flex-direction: column;
+    line-height: 17px;
+}
+.crdesconectado.cjflex > a {font-size: 1.5rem;}
+.crdesconectado.cjflex > span {
+    font-size: .7rem;
+    letter-spacing: .5px;
+}
+.crtbsec-e.cjflex a {
+    font-weight: 700;
+    font-style: italic;
+}
+.crtbsec-e.cjflex {font-size: .75rem;}
+.crtmst-icon > i.bi { font-size: 3rem!important;}
+.crtem-botones img,.crtmst-icon img { display: none;}
+.crcatf-img.cjflex:after {
+    width: 300px;
+    height: 300px;
+    display: block;
+    content: "";
+    position: absolute;
+    background: var(--gradient);
+    border-radius: 100%;
+    z-index: -1;
+    filter: blur(90px);
+    transition: .5s all;
+    opacity:.4;
+}
+.crcat-f:hover .crcatf-img.cjflex:after {opacity:.8;}
+.crcatf-img.cjflex {
+    background: var(--background-t);
+    margin: 0 -5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.crtb-pr {
+  width: 1100px;
+  background: var(--background-t);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.crtb-header {
+    height: 100vh;
+    margin: 50px auto;
+}
+/* logo */
+.cr-lg.cjflex > b {
+    z-index: 1;
+    font-size: 6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    -webkit-text-stroke: 1.5px var(--background-1);
+    line-height: 60px;
+    text-shadow: 2px 2px var(--accent);
+    color: transparent;
+}
+.cr-lg.cjflex > b > span {
+    text-transform: lowercase;
+    height: 75px;
+    display: block;
+    overflow: hidden;
+}
+.cr-lg.cjflex > b:nth-child(3) > span {
+    height: 83px !important;
+}
+.cr-lg{
+    flex-direction: column;
+    position: relative;
+    line-height: 522%;
+    transform: scale(1.1);
+}
+.cr-lg > i {
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    z-index: -1;
+    margin-top: -148px;
+    background-color: var(--background-1);
+    border-radius: 100%;
+    background-image: url(https://freepngtransparent.com/wp-content/uploads/2023/03/moon-png-171.png);
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+.cr-lg.cjflex > span {
+    font-family: 'Poppins';
+    color: #999;
+    font-weight: 600;
+    font-style: italic;
+    font-size: .7rem;
+    margin-left: 100px;
+    width: 275px;
+    position: absolute;
+    bottom: -29px;
+    right: 0;
+    justify-content: flex-end;
+    gap: 10px;
+}
