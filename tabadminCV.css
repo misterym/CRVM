@@ -766,7 +766,7 @@ crtbm-contacto > a {
     grid-template-columns:auto 340px ;
 }
 
-stats {
+.crtbuex-m-cntdt stats {
     grid-template-columns: repeat(3,110px);
 }
 
