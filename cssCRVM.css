@@ -1238,3 +1238,24 @@ blockquote strong {
     justify-content: flex-end;
     gap: 10px;
 }
+table#memberlist td img {
+    display: none;
+}
+
+table#memberlist td:nth-child(2) {
+    flex-direction: unset;
+    align-items: center;
+    font-size: 0 !important;
+    padding: 0 5px !important;
+}
+
+table#memberlist td:nth-child(2) > .topictitle {
+    display: block;
+    width: 100%;
+}
+
+table#memberlist td:nth-child(2) > a {
+    font-size: 11px!important;
+    padding: 0 5px;
+    line-height: 11px;
+}
